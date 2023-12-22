@@ -1,156 +1,33 @@
-body {
-  font-family: "Roboto", sans-serif;
-  line-height: 24px;
-}
-.space {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-/*********header***************/
-header,
-footer {
-  background-color: rgba(0, 0, 0, 0.764);
-  color: white;
-}
-header {
+header{
+  background-color: rgba(27, 24, 24, 0.685);
+  margin-bottom: 15px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  padding: 30px;
+  gap: 10px;
 }
-header .burger {
-  display: none;
+main{
+border-radius: 15px;
+margin-left: 30%;
+width: 40%;
+margin-right: 30%;
+box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.1);
+padding: 25px;
+
 }
-ul {
-  display: flex;
-  justify-content: flex-end;
-  gap: 15px;
-  margin-right: 25px;
+h1{
+  font-size: 1.5em;
 }
-nav ul li a {
-  text-decoration: none;
+header p{
   color: white;
 }
-/********Titres*************/
-h2 {
-  font-size: 24px;
-  margin-top: 15px;
-  margin-bottom: 20px;
+H1,H2,span{
   font-weight: bold;
 }
-section[id="partie1"] h2 {
-  margin-top: 50px;
-}
-section[id="partie2"] h2 {
-  margin-top: 20px;
+section{
   margin-bottom: 20px;
 }
-h3 {
-  font-size: 20px;
+h2{
   margin-bottom: 10px;
-  font-weight: bold;
-}
-/*************articles/*************/
-.flex {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-article a {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  background-color: rgb(25, 165, 241);
-  padding: 10px;
-  text-transform: uppercase;
-}
-a[href="https://google.com"]
-{
-  color: rgb(53, 44, 33);
-}
-article {
-  border: 1px solid black;
-  width: 50%;
-}
-article img {
-  width: 100%;
-}
-.content {
-  padding: 5%;
-}
-/************les parties*************/
-section[id="partie2"] {
-  background-color: black;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 50px;
-}
-section[id="partie2"] * {
-  background-color: black;
-  color: white;
-  margin-bottom: 0px;
-}
-section[id="partie3"] h1 {
-  text-align: left;
-}
-section[id="partie3"] iframe {
-  width: 100%;
-  height: 700px;
-}
-section[id="partie1"] p,
-section[id="partie2"] {
-  margin-bottom: 50px;
-}
-/*************footer*************/
-footer {
-  background-color: rgba(0, 0, 0, 0.764);
-  color: white;
-  text-align: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  margin-top: 100px;
-}
-/*********responsive***************/
-@media screen and (max-width: 720px) {
-  body {
-    text-align: justify;
-  }
-  .flex {
-    flex-direction: column;
-    align-items: center;
-  }
-  article {
-    width: 100%;
-  }
-  section[id="partie3"] iframe {
-    width: 100%;
-    height: 300px;
-  }
-  div[class="espace"] p {
-    margin-bottom: 30px;
-  }
-  article a {
-    margin-bottom: 5px;
-  }
-  .space {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  header .burger {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  header .burger .line {
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    margin-right: 15px;
-  }
-  ul {
-    display: none;
-  }
-  footer {
-    margin-top: 40px;
-  }
 }
