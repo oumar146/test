@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shoes_market_dashboard/static/css/main.fb196d8c.css",
+    "main.js": "/shoes_market_dashboard/static/js/main.8c54d39d.js",
+    "index.html": "/shoes_market_dashboard/index.html",
+    "main.fb196d8c.css.map": "/shoes_market_dashboard/static/css/main.fb196d8c.css.map",
+    "main.8c54d39d.js.map": "/shoes_market_dashboard/static/js/main.8c54d39d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb196d8c.css",
+    "static/js/main.8c54d39d.js"
+  ]
+}
